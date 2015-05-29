@@ -62,6 +62,7 @@ table {
 
 h1 {
 	text-align: center;	
+<<<<<<< HEAD
 	font-size: 17px;
 	font-family: helvetica, arial, sans-serif;
 	transform:rotate(-45deg);
@@ -80,6 +81,25 @@ p {
 	letter-spacing: 0.03em;
 	margin: 15px auto;
 	line-height: 24px;
+=======
+	font-size: 23px;
+	font-family: helvetica, arial, sans-serif;
+	transform:rotate(-45deg);	
+	position: relative;
+	top: 50px;
+	left: 5px;
+	letter-spacing: 0.05em;
+	line-height: 1.25em;
+	color: white;
+}
+
+p {
+	font-size: 11px;
+	text-align: justify;	
+	width: 500px;
+	margin: 15px auto;
+	line-height: 20px;
+>>>>>>> master
 	font-family: helvetica, arial, sans-serif;
 }
 
