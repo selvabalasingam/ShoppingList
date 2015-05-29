@@ -62,23 +62,14 @@ table {
 
 h1 {
 	text-align: center;	
-<<<<<<< HEAD
-	font-size: 17px;
-=======
 	font-size: 20px;
->>>>>>> master
 	font-family: helvetica, arial, sans-serif;
 	transform:rotate(-45deg);
 	position: relative;
-<<<<<<< HEAD
-	top: 50px;
-	left:4px;
-=======
 	top: 54px;
 	left: 7px;
 	letter-spacing: 0.07em;
 	line-height: 1.25em;
->>>>>>> master
 	color: white;
 	letter-spacing: 0.25em;
 	line-height: 1.5em;
