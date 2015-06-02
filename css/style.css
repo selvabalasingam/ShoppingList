@@ -99,8 +99,13 @@ button {
 	width: 30px;
 }
 
+.form-group {
+	margin: 0px auto;
+}
 
-
+.container {
+	width: 800px;
+}
 
 
 
