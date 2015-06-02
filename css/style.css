@@ -106,10 +106,19 @@ button {
 }
 
 .form-group {
-	margin: 0px auto;
+	width: 500px;
+	margin: 15px auto;
 }
 
-.container {
-	width: 800px;
+#shopping-list {
+	line-height: 20px;
+	font-family: helvetica, arial, sans-serif;
+	width: 500px;
+	margin: 15px auto;
+}
+
+.typeintext {
+	height: 25px;
+	width: 459px;
 }
 
