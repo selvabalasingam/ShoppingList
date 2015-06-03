@@ -94,7 +94,7 @@ p {
 	font-weight: bold;
 }
 
-button {
+.add {
 	cursor: pointer;
 	display: inline-block;
 	font-family: helvetica, tahoma, arial, sans-serif;
@@ -121,4 +121,3 @@ button {
 	height: 25px;
 	width: 459px;
 }
-
