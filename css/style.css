@@ -121,3 +121,28 @@ p {
 	height: 25px;
 	width: 459px;
 }
+
+.addbutton{
+  	background-color: #CCFF99;
+  	outline: none;
+	border: none;
+	cursor: pointer;
+
+}
+
+.removebutton{
+	background-color: #FF9999;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+li {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: justify;	
+	width: 500px;
+	margin: 15px auto;
+	line-height: 20px;
+	font-family: helvetica, arial, sans-serif;
+}
