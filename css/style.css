@@ -149,4 +149,5 @@ li {
 	list-style-type: none; /* to remove the ugly bullet marks */
 }
 
-#completed-list .addbutton { display: none; }
+#completed-list .addbutton { display: none; } /* To make the green buttons disappear in the completed sections you need to 
+target the green button in the #completed list section in CSS to have it disappear! */
