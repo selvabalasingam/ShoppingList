@@ -64,13 +64,15 @@ h1 {
 	text-align: center;	
 	font-size: 18px;
 	font-family: helvetica, arial, sans-serif;
-	transform:rotate(-45deg);	
+	transform:rotate(-45deg);
 	position: relative;
 	top: 51px;
 	left: 9px;
 	letter-spacing: 0.07em;
 	line-height: 1.25em;
 	color: white;
+	letter-spacing: 0.25em;
+	line-height: 1.5em;
 }
 
 p {
@@ -82,13 +84,17 @@ p {
 	font-family: helvetica, arial, sans-serif;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 .empty {
 	font-family: helvetica, arial, sans-serif;
 	font-size: 10px;
 	font-weight: bold;
 }
 
-button {
+.add {
 	cursor: pointer;
 	display: inline-block;
 	font-family: helvetica, tahoma, arial, sans-serif;
@@ -100,12 +106,43 @@ button {
 }
 
 .form-group {
-	margin: 0px auto;
+	width: 500px;
+	margin: 15px auto;
 }
 
-.container {
-	width: 800px;
+#shopping-list {
+	line-height: 20px;
+	font-family: helvetica, arial, sans-serif;
+	width: 500px;
+	margin: 15px auto;
 }
 
+.typeintext {
+	height: 25px;
+	width: 459px;
+}
 
+.addbutton{
+  	background-color: #CCFF99;
+  	outline: none;
+	border: none;
+	cursor: pointer;
 
+}
+
+.removebutton{
+	background-color: #FF9999;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+li {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: justify;	
+	width: 500px;
+	margin: 15px auto;
+	line-height: 20px;
+	font-family: helvetica, arial, sans-serif;
+}

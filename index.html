@@ -7,25 +7,23 @@
 		<script src="js/app.js"></script>
 	</head>
 	<body>
-		<div class="container">
 			<div class="diamond"><h1> SHOPPING LIST</h1></div>
-			<p>To add a new item, enter it in the field below and press the add button or the enter key. Items can be resorted by clicking and dragging. To check off an item, click the green checkmark. To remove an item click on the "x" inside red box. The item will go into your completed items section. If you want to restore the item, simply click on it, and it will go back into the todo section.</p>
+			<p>To add a new item, enter it in the field below and press the add button or the enter key. Items can be resorted by clicking and dragging. To check off an item, click the green box. To remove an item click on the red box. The item will go into your completed items section. If you want to restore the item, simply click on it, and it will go back into the todo section.</p>
 			<div class="form-group">
 				<!-- block to type in text -->
-				<input name="item" type="text" placeholder="enter an item" required="true" autocomplete="off"/>
+				<form class="enter">
+				<input name="item" class="typeintext" type="text" placeholder="enter an item" required="true" autocomplete="off"/>
 				<!-- button beside the text box to add items -->
-				<button type="submit" class="center-text add">&#43;</button> 
+				<button type="submit" class="center-text add">&#43;</button>
+				</form>
 			</div>
-
 			<section id="todo-items">
-				<ul id="shopping-list"></ul>
-			</section>
-			
+				<ul id="shopping-list">
+				</ul>
+			</section>	
 			<section id="completed-items">
 				<p>Completed Items</p>
 				<ul id="completed-list"></ul>
-			</section>
-		
-		</div>
+			</section>	
 	</body>
 </html>
