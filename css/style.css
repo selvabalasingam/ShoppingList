@@ -129,7 +129,6 @@ p {
   	outline: none;
 	border: none;
 	cursor: pointer;
-
 }
 
 .removebutton{
@@ -149,3 +148,5 @@ li {
 	font-family: helvetica, arial, sans-serif;
 	list-style-type: none; /* to remove the ugly bullet marks */
 }
+
+#completed-list .addbutton { display: none; }
