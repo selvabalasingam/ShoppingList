@@ -3,28 +3,6 @@ $(document).ready(function(){
 	$(".add").on("click", function(){
 		event.preventDefault(); //with this when you can also hit "enter" instead of clicking on the button all the time
 		var item = $("input[name=item]").val();
-<<<<<<< HEAD
-	if ("") {
-		alert ("You did not type your item")
-	} else {
-		$("#shopping-list").append("<li>" + "<button class=addbutton>+</button>" + " " + "<button class=removebutton>-</button>" + " " + item + "</li>");
-		$("input[name=item]").val("");	
-		$("#shopping-list").sortable();//This makes the updated shopping list items drag and drop.
-	}
-	})
-	// 2nd delete an item after we've added it
-	$("ul").on('click', 'button.removebutton', function() {$(this).closest("li").remove();
-	});
-	});
- 
-
-
-
-
-
-// 3rd - move item beneath "completed list" when the green
-
-=======
 	// If any the length of any item types is less or equal to zero you will get an alert message
 	if (item <= 0) {
 		alert ("You did not type your item")
@@ -40,4 +18,8 @@ $(document).ready(function(){
 	$("ul").on('click', 'button.addbutton', function() {$(this).closest("li").appendTo("#completed-list");});
 }); 
 
->>>>>>> master
+ 
+
+
+
+
