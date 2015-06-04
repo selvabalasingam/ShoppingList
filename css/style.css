@@ -76,12 +76,14 @@ h1 {
 }
 
 p {
-	font-size: 11px;
+	font-size: 12px;
 	text-align: justify;	
 	width: 500px;
 	margin: 15px auto;
-	line-height: 20px;
+	line-height: 22px;
 	font-family: helvetica, arial, sans-serif;
+	font-weight: lighter;
+	letter-spacing: 0.05em;
 }
 
 .bold {
@@ -127,7 +129,6 @@ p {
   	outline: none;
 	border: none;
 	cursor: pointer;
-
 }
 
 .removebutton{
@@ -145,4 +146,8 @@ li {
 	margin: 15px auto;
 	line-height: 20px;
 	font-family: helvetica, arial, sans-serif;
+	list-style-type: none; /* to remove the ugly bullet marks */
 }
+
+#completed-list .addbutton { display: none; } /* To make the green buttons disappear in the completed sections you need to 
+target the green button in the #completed list section in CSS to have it disappear! */
