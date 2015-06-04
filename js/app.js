@@ -12,6 +12,6 @@ $(document).ready(function(){
 	})	
 	// 2nd delete an item after we've added it
 	$("ul").on('click', 'button.removebutton', function() {$(this).closest("li").remove();});
+	// 3rd check off an item after it has been added
 }); 
 
-//3rd - check off an item after it has been added
