@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$(".add").on("click", function(){
 		event.preventDefault(); //with this when you can also hit "enter" instead of clicking on the button all the time
 		var item = $("input[name=item]").val();
-	if ("") {
+	if (item <= 0) {
 		alert ("You did not type your item")
 	} else {
 		$("#shopping-list").append("<li>" + "<button class=addbutton>+</button>" + " " + "<button class=removebutton>-</button>" + " " + item + "</li>");
