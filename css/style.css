@@ -76,12 +76,13 @@ h1 {
 }
 
 p {
-	font-size: 11px;
+	font-size: 12px;
 	text-align: justify;	
 	width: 500px;
 	margin: 15px auto;
-	line-height: 20px;
+	line-height: 22px;
 	font-family: helvetica, arial, sans-serif;
+	font-weight: lighter;
 }
 
 .bold {
