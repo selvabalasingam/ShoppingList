@@ -147,4 +147,5 @@ li {
 	margin: 15px auto;
 	line-height: 20px;
 	font-family: helvetica, arial, sans-serif;
+	list-style-type: none; /* to remove the ugly bullet marks */
 }

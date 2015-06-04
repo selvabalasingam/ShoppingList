@@ -13,6 +13,6 @@ $(document).ready(function(){
 	// 2nd delete an item after we've added it
 	$("ul").on('click', 'button.removebutton', function() {$(this).closest("li").remove();});
 	// 3rd check off an item after it has been added
-	$("ul").on('click', 'button.addbutton', function() {$(this).closest("li").insertAfter("#completed-items");});
+	$("ul").on('click', 'button.addbutton', function() {$(this).closest("li").insertAfter("#completed-list");});
 }); 
 
