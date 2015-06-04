@@ -7,13 +7,15 @@ $(document).ready(function(){
 		alert ("You did not type your item")
 	} else {
 		$("#shopping-list").append("<li>" + "<button class=addbutton>+</button>" + " " + "<button class=removebutton>-</button>" + " " + item + "</li>");
-		$("input[name=item]").val("");
-	})	
+		$("input[name=item]").val("");	
+		$("#shopping-list").sortable();//This makes the updated shopping list items drag and drop.
 	}
+	})
 	// 2nd delete an item after we've added it
-	$("ul").on('click', 'button.removebutton', function() {$("#shopping-list").remove(item)});
+	$("ul").on('click', 'button.removebutton', function() {$(this).closest("li").remove();
 	});
-}); 
+	});
+ 
 
 
 
